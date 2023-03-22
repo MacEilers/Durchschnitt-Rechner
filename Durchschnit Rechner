@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Mar 22 17:39:53 2023
+
+@author: tjorven
+"""
+
+
+print("Wie viele Zahlen ?  ")
+x = 0
+x = input()
+i=0
+ges =0
+durch =0
+while i < int(x) :
+    
+    i += 1
+    print("Was ist die Zahl ?")
+    ges = ges  + int(input())
+durch = ges / int(x)
+print(durch)
